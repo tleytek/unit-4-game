@@ -1,0 +1,43 @@
+body {
+  background-image: url(../images/Avengers-Background.jpg);
+}
+
+@font-face {
+  font-family: Avengers;
+  src: url(../fonts/AVENGEANCE.otf);
+}
+
+.title {
+  text-decoration: underline;
+  text-shadow: 2px 2px white;
+  font-family: Avengers, Helvetica, sans-serif;
+  color: #172145;
+  font-size: 82px;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.instructions {
+  text-shadow: 3px 3px #172145;
+  letter-spacing: 2px;
+  font-family: Avengers, Helvetica, sans-serif;
+  color: white;
+  font-size: 24px;
+  margin: 20px;
+}
+
+.minor-header {
+  text-shadow: 2px 2px white;
+  font-family: Avengers, Helvetica, sans-serif;
+  color: #172145;
+  font-size: 60px;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+img {
+  background-color: white;
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+}

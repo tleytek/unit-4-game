@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
+    <title>Crystal Collectors Game</title>
+</head>
+
+<body>
+    <div class="col-7">
+
+        <!-- Game Title -->
+        <div class="row">
+            <h1 class="title">
+                Crystal Collectors!
+            </h1>
+        </div>
+
+
+        <!-- Game Description -->
+        <div class="row instructions">
+            <p style="margin-bottom: 0px;">
+                You will be given a random number at the start of the game.
+                <br/>
+                <br/>There are four crystals below. By clicking on a crystal your will add a specific amount of points to you
+                total score.
+                <br/>
+                <br/>You win the game by matching your total score to the random number, you lose the game if your total score
+                goes above the ramdom number.
+                <br/>
+                <br/>The value of each crystal is hidden from you until you click on it.
+                <br/>
+                <br/>Every time the game restarts, the values of each crystal changes.
+            </p>
+
+
+        </div>
+
+
+        <div class="row avengers text-center">
+
+            <!-- Random Number to beat -->
+            <div class="col minor-header">
+                <p id="rndNumber">Match the number!</p>
+            </div>
+            <!-- Wins Loss -->
+            <div class="col minor-header">
+                <p id="wins"></p>
+            </div>
+
+            <div class="col minor-header">
+                <p id="losses">Losses: 0</p>
+            </div>
+
+        </div>
+
+        <!-- Gems -->
+        <div class="row">
+
+            <!-- Gem 1 -->
+            <div class="col text-center">
+                <img id="redCrystal" src="assets/images/Red-Crystal.png" alt="Red Crystal">
+            </div>
+
+            <!-- Gem 2 -->
+            <div class="col text-center">
+                <img id="blueCrystal" src="assets/images/Blue-Crystal.png" alt="Blue Crystal">
+            </div>
+
+            <!-- Gem 3 -->
+            <div class="col text-center">
+                <img id="yellowCrystal" src="assets/images/Yellow-Crystal.png" alt="Yellow Crystal">
+            </div>
+
+            <!-- Gem 4 -->
+            <div class="col text-center">
+                <img id="greenCrystal" src="assets/images/Green-Crystal.png" alt="Green Crystal">
+            </div>
+
+        </div>
+
+        <!-- "Your score" header -->
+        <div class="row">
+
+            <div class="minor-header">
+                <p>Your total score is: </p>
+            </div>
+
+            <!-- Users total score -->
+            <div class="minor-header">
+                <p id="score">0</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
