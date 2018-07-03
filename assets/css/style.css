@@ -1,5 +1,6 @@
 body {
-  background-image: url(../images/Avengers-Background.jpg);
+  background: url(../images/Avengers-Background.jpg);
+  background-size: 100% auto;
 }
 
 @font-face {
