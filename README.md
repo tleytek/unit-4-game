@@ -1,6 +1,6 @@
 # Crystal Collectors
 
-##_Avengers Edition_
+## _Avengers Edition_
 
 https://tleytek.github.io/unit-4-game/
 
